@@ -9,7 +9,7 @@ USER root
 # Udate resources.
 RUN apt-get -y update
 # Install appropriate packages.
-RUN apt-get install -y git make cmake gcc g++ python python-serial gawk texinfo \
+RUN apt-get install -y git make cmake gcc g++ python python3 python-serial gawk texinfo \
                        doxygen libtool bzip2 wget unzip help2man libtool-bin \
                        sed python-dev libncurses-dev ncurses-dev bison flex gperf sed \
                        automake autoconf libexpat-dev expat ca-certificates
